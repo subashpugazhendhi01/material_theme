@@ -87,7 +87,7 @@ app_include_js = [
 # ------------
 
 # before_install = "material_theme.install.before_install"
-# after_install = "material_theme.install.after_install"
+after_install = "material_theme.patches.add_theme_setting_user.execute"
 
 # Uninstallation
 # ------------
